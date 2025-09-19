@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src = script.js DEFER></script>
+</head>
+<body>
+  
+  <div id="form">
+  <label>Tel</label>
+<input type="tel" placeholder="(31)99999-9999" id="telefone"  oninput=mascara_telefone() maxlength="14">
+<label for="dinheiro"> R$ </label>
+<input type="text" placeholder="R$" id="dinheiro"  onkeyup=moeda(this) >
+
+<label>CEP</label>
+<input type="text" class="cep" oninput=mascara_cep() maxlength="8">
+
+<label>CPF</label>
+<input type="text" class="CPF" oninput=mascara_cpf() maxlength="11">
+
+<label>Endereco</label>
+<input type="text" class="Endereco" oninput=mascara_endereco() maxlength="100000">
+
+<label>Nome</label>
+<input type="text" class="Nome" oninput=mascara_nome() maxlength="11">
+
+<label>CNPJ</label>
+<input type="text" class="CNPJ" oninput=mascara_cnpj() maxlength="14">
+
+<label>Codigo</label>
+<input type="text" class="Codigo" oninput=mascara_codigo() maxlength="13">
+
+<div class="enviar"><button>Enviar</button></div>
+  </div>
+  
+    
+</body>
+</html>

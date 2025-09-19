@@ -1,0 +1,14 @@
+.formulario{
+    margin-left: 35%;
+    margin-top: 10%;
+    width: 20%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+}
+
+#enviado
+{
+   justify-content: center;
+   display: none;
+}
