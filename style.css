@@ -1,14 +1,9 @@
-.formulario{
-    margin-left: 35%;
-    margin-top: 10%;
-    width: 20%;
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 2fr;
-}
+input {border: 0px;
+    border-bottom: solid 1px }
+    input:focus { border: solid 1px limegreen;
+      outline: none
+    }
+    
+    input:hover 
+    { border: solid 1px red}
 
-#enviado
-{
-   justify-content: center;
-   display: none;
-}
